@@ -97,7 +97,7 @@ class _EmployeeCardState extends State<EmployeeCard>
                 child: Container(
                   decoration: BoxDecoration(
                     color: baseblue, // Solid baseblue background
-                    borderRadius: BorderRadius.circular(16),
+                    borderRadius: BorderRadius.circular(10),
                   ),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -149,13 +149,13 @@ class _EmployeeCardState extends State<EmployeeCard>
                   child: Container(
                     decoration: BoxDecoration(
                       color: Colors.white,
-                      borderRadius: BorderRadius.circular(16),
+                      borderRadius: BorderRadius.circular(10),
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.grey.withOpacity(0.2),
-                          spreadRadius: 1,
-                          blurRadius: 12,
-                          offset: const Offset(0, 4),
+                          color: Colors.black.withOpacity(0.15),
+                          spreadRadius: 0,
+                          blurRadius: 8,
+                          offset: const Offset(0, 3),
                         ),
                       ],
                     ),
